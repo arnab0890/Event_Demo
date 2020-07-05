@@ -87,27 +87,75 @@
 		4E41B2CE24AF7182009C43C2 /* TGropseAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				4E41B2CF24AF7182009C43C2 /* AppDelegate.swift */,
-				4E41B2D124AF7182009C43C2 /* SceneDelegate.swift */,
+				4E52C61824B1A9E8002A3C0C /* Delegates */,
+				4E52C61724B1A9A9002A3C0C /* View */,
+				4E52C61624B1A9A0002A3C0C /* Custom Cell */,
+				4E52C61524B1A98B002A3C0C /* Helper+Server+Constant */,
+				4E52C61424B1A981002A3C0C /* Controller */,
+				4E52C61324B1A97A002A3C0C /* Model */,
+				4E41B2D824AF718B009C43C2 /* Assets.xcassets */,
+				4E41B2DD24AF718B009C43C2 /* Info.plist */,
+			);
+			path = TGropseAssignment;
+			sourceTree = "<group>";
+		};
+		4E52C61324B1A97A002A3C0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E1C5CB324B08A4C009EBA11 /* EventModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E52C61424B1A981002A3C0C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				4E41B2D324AF7182009C43C2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E52C61524B1A98B002A3C0C /* Helper+Server+Constant */ = {
+			isa = PBXGroup;
+			children = (
 				4E52C60F24B1689C002A3C0C /* Constant.swift */,
 				4E1C5CB924B099B7009EBA11 /* Server.swift */,
 				4E1C5CBB24B0B471009EBA11 /* String+Extension.swift */,
-				4E1C5CB324B08A4C009EBA11 /* EventModel.swift */,
 				4E52C61124B16A3F002A3C0C /* Pydeya Provider_Pydeya Provider_Utilities_SegmentController.swift */,
 				4ED7F45224B0FE6A002FFE26 /* UIView+Extension.swift */,
-				4E41B2D524AF7182009C43C2 /* Main.storyboard */,
-				4E41B2D824AF718B009C43C2 /* Assets.xcassets */,
-				4E41B2DA24AF718B009C43C2 /* LaunchScreen.storyboard */,
-				4E41B2DD24AF718B009C43C2 /* Info.plist */,
+				4E1C5CC124B0E392009EBA11 /* Helper.swift */,
+			);
+			path = "Helper+Server+Constant";
+			sourceTree = "<group>";
+		};
+		4E52C61624B1A9A0002A3C0C /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
 				4E100EDA24AFAF4C00EF572E /* TabColctCell.swift */,
 				4E1C5CA724B01A62009EBA11 /* EventDetailViewCell.swift */,
 				4E1C5CA924B01C75009EBA11 /* EvenetLocationViewCell.swift */,
 				4E1C5CAB24B04AC1009EBA11 /* BriefDiscussionCell.swift */,
 				4E1C5CAD24B08079009EBA11 /* OrgainserViewCell.swift */,
-				4E1C5CC124B0E392009EBA11 /* Helper.swift */,
 			);
-			path = TGropseAssignment;
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		4E52C61724B1A9A9002A3C0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E41B2D524AF7182009C43C2 /* Main.storyboard */,
+				4E41B2DA24AF718B009C43C2 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E52C61824B1A9E8002A3C0C /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4E41B2CF24AF7182009C43C2 /* AppDelegate.swift */,
+				4E41B2D124AF7182009C43C2 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 		81A4DBD938FF31356D505D81 /* Frameworks */ = {
@@ -139,6 +187,7 @@
 				4E41B2C924AF7182009C43C2 /* Frameworks */,
 				4E41B2CA24AF7182009C43C2 /* Resources */,
 				563525077F45261B1B263A56 /* [CP] Embed Pods Frameworks */,
+				B66D64C097C982DDE3855141 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +282,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TGropseAssignment/Pods-TGropseAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B66D64C097C982DDE3855141 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TGropseAssignment/Pods-TGropseAssignment-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TGropseAssignment/Pods-TGropseAssignment-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TGropseAssignment/Pods-TGropseAssignment-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

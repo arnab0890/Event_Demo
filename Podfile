@@ -10,5 +10,7 @@ target 'TGropseAssignment' do
 
    pod 'Alamofire', '~> 4.9'
    pod 'SDWebImage', '~> 5.0'
+   pod 'GooglePlaces'
+   pod 'GoogleMaps'
 
 end
